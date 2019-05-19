@@ -11,14 +11,14 @@ Distributed system project
 
 ### Get:
 ```
-_Check_="name"           _Check_ request
-_Clear_="name"		   _Clear_ request
+_Check_="name"   // request of _Check_ button
+_Clear_="name"	 // request of _Clear_ button
 ```
 
 ### Post:
 ```
-_LockerBusy_="name"	 	All lockers are busy
-_GetKey_="name":"key"	 User got key
-_Return_="name":"key"	 User returned key
-_Success_				 _Clear_ action was successfull
+_LockerBusy_="name"     //All lockers are busy
+_GetKey_="name":"key"   //User got key
+_Return_="name":"key"   //User returned key
+_Success_               //_Clear_ action was successfull
 ```
